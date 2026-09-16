@@ -1,0 +1,24 @@
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur/evidence (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur/evidence (main)
+$ git log --oneline --decorate --all
+b36274b (HEAD -> main) Add 03-merge.txt
+0c4134f (origin/main, origin/HEAD, chapter-1) Add 02-branch.txt
+98bc11e (origin/chapter-1) Add section-1.txt
+0c1f331 Add repo URL, git remote -v, git status, and git branch -vv output
+2dd0aa0 (output) Add dinosaur.txt and evidence/01-setup.txt
+7e6d46f Add readme.md
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur/evidence (main)
+$
+
+
+1. Fast forward merge was observed because main had no commits, so the branch moved the HEAD main pointer forward. 
+
+2. target was main (branch I was on), source was chapter-1 (branch I merged) and merge type was fast forward merge. 
