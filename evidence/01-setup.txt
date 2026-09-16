@@ -1,1 +1,27 @@
 https://github.com/pintsizedcoder/dinosaur-pintsizedcoder.git
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur (main)
+$ git remote -v
+origin  https://github.com/pintsizedcoder/dinosaur-pintsizedcoder.git (fetch)
+origin  https://github.com/pintsizedcoder/dinosaur-pintsizedcoder.git (push)
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur (main)
+$ git branch
+* main
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur (main)
+$ git branch -vv output
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur (main)
+$ git branch -vv
+* main   2dd0aa0 [origin/main: ahead 1] Add dinosaur.txt and evidence/01-setup.txt
+  output 2dd0aa0 Add dinosaur.txt and evidence/01-setup.txt
+
