@@ -1,0 +1,18 @@
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur (chapter-1)
+$ git branch -vv
+* chapter-1 98bc11e [origin/chapter-1] Add section-1.txt
+  main      0c1f331 [origin/main: ahead 2] Add repo URL, git remote -v, git status, and git branch -vv output
+  output    2dd0aa0 Add dinosaur.txt and evidence/01-setup.txt
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur (chapter-1)
+$ ^C
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur (chapter-1)
+$ git status
+On branch chapter-1
+Your branch is up to date with 'origin/chapter-1'.
+
+nothing to commit, working tree clean
+
+13852@Jaqueline MINGW64 ~/workspace/lab-5/dinosaur (chapter-1)
+$
